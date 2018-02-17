@@ -1,0 +1,27 @@
+body {
+    background-color:#4d4e4e; 
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #39a5f1;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    color: white;
+}
+
+.photo1 {
+    width: 563px;
+    transition: all 2s ease-in-out;
+    opacity: 1;
+}
+
+.photo1:hover {
+    transform: scale(0.8) rotate(20deg);
+    opacity: 0.5;
+}
